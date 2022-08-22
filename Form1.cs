@@ -29,7 +29,7 @@ namespace Actiity_15
             Font LargeFont = new Font("Arial", 12);
             Label yearInputLabel = new Label();
             yearInputLabel.Location = new Point(70, 40);
-            yearInputLabel.Size = new Size(80, 50);
+            yearInputLabel.Size = new Size(80, 20);
             yearInputLabel.Text = "Birth Year: ";
             yearInputLabel.Font = LargeFont;
             //Adding the label to the form
@@ -38,7 +38,7 @@ namespace Actiity_15
             // Creating comboBox
             ComboBox yearComboBox = new ComboBox();
             yearComboBox.Location = new Point(150, 40);
-            yearComboBox.Size = new Size(100, 50);
+            yearComboBox.Size = new Size(100, 20);
             yearComboBox.Name = "yearInputBox";
             yearComboBox.Font = LargeFont;
             int ninetiesYear;
@@ -66,7 +66,7 @@ namespace Actiity_15
             Font LargeFont = new Font("Arial", 12);
             Label monthLabel = new Label();
             monthLabel.Location = new Point(60, 90);
-            monthLabel.Size = new Size(90, 50);
+            monthLabel.Size = new Size(90, 20);
             monthLabel.Text = "Birth Month: ";
             monthLabel.Font = LargeFont;
             //Adding the label to the form
@@ -75,7 +75,7 @@ namespace Actiity_15
             // Creating comboBox
             ComboBox monthComboBox = new ComboBox();
             monthComboBox.Location = new Point(150, 90);
-            monthComboBox.Size = new Size(100, 50);
+            monthComboBox.Size = new Size(100, 20);
             monthComboBox.Name = "monthInputBox";
             monthComboBox.Font = LargeFont;
             //add box for month
@@ -103,7 +103,7 @@ namespace Actiity_15
             Font LargeFont = new Font("Arial", 12);
             Label dayLabel = new Label();
             dayLabel.Location = new Point(60, 140);
-            dayLabel.Size = new Size(90, 50);
+            dayLabel.Size = new Size(90, 20);
             dayLabel.Text = "Birth Day: ";
             dayLabel.Font = LargeFont;
             //Adding the label to the form
@@ -112,7 +112,7 @@ namespace Actiity_15
             // Creating comboBox
             ComboBox dayComboBox = new ComboBox();
             dayComboBox.Location = new Point(150, 140);
-            dayComboBox.Size = new Size(100, 50);
+            dayComboBox.Size = new Size(100, 20);
             dayComboBox.Name = "dayInputBox";
             dayComboBox.Font = LargeFont;
             //add box for Day
