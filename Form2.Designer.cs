@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.astroPlaceHolderLabel = new System.Windows.Forms.Label();
             this.PHLabel = new System.Windows.Forms.Label();
             this.AstroPicBox = new System.Windows.Forms.PictureBox();
@@ -41,7 +42,7 @@
             this.astroPlaceHolderLabel.AutoSize = true;
             this.astroPlaceHolderLabel.Location = new System.Drawing.Point(0, 0);
             this.astroPlaceHolderLabel.Name = "astroPlaceHolderLabel";
-            this.astroPlaceHolderLabel.Size = new System.Drawing.Size(0, 33);
+            this.astroPlaceHolderLabel.Size = new System.Drawing.Size(0, 25);
             this.astroPlaceHolderLabel.TabIndex = 0;
             this.astroPlaceHolderLabel.Visible = false;
             // 
@@ -50,7 +51,7 @@
             this.PHLabel.AutoSize = true;
             this.PHLabel.Location = new System.Drawing.Point(0, 0);
             this.PHLabel.Name = "PHLabel";
-            this.PHLabel.Size = new System.Drawing.Size(24, 33);
+            this.PHLabel.Size = new System.Drawing.Size(18, 25);
             this.PHLabel.TabIndex = 1;
             this.PHLabel.Text = " ";
             // 
@@ -94,6 +95,7 @@
             this.Controls.Add(this.AstroPicBox);
             this.Controls.Add(this.PHLabel);
             this.Controls.Add(this.astroPlaceHolderLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Horoscope";
             this.Load += new System.EventHandler(this.Form2_Load);
