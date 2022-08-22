@@ -89,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 538);
+            this.ClientSize = new System.Drawing.Size(591, 530);
             this.Controls.Add(this.SignLabel);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.AstroPicBox);

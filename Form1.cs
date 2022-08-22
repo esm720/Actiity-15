@@ -11,6 +11,12 @@ using System.Windows.Forms;
 
 namespace Actiity_15
 {
+    /*
+     * Enrique Sanchezmurillo
+     * Activity 15
+     * CST-150
+     * 21 AUG 2022
+     */
     public partial class Form1 : Form
     {
         static int year;
